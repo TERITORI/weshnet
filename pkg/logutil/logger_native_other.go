@@ -1,5 +1,5 @@
-//go:build !darwin && !android
-// +build !darwin,!android
+//go:build (!darwin && !android) || noNativeLogger
+// +build !darwin,!android noNativeLogger
 
 package logutil
 

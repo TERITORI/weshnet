@@ -1,5 +1,5 @@
-//go:build android
-// +build android
+//go:build android && !noNativeLogger
+// +build android,!noNativeLogger
 
 package logutil
 
