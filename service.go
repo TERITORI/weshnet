@@ -146,7 +146,7 @@ func (opts *Opts) applyDefaultsGetDatastore() error {
 	return nil
 }
 
-func (opts *Opts) applyDefaults(ctx context.Context) error {
+func (opts *Opts) ServiceOptsApplyDefaults(ctx context.Context) error {
 	if opts.Logger == nil {
 		opts.Logger = zap.NewNop()
 	}
@@ -315,7 +315,7 @@ func (opts *Opts) applyDefaults(ctx context.Context) error {
 func NewService(opts Opts) (_ Service, err error) {
 	ctx, cancel := context.WithCancel(context.Background())
 
-	if err := opts.applyDefaults(ctx); err != nil {
+	if err := opts.ServiceOptsApplyDefaults(ctx); err != nil {
 		cancel()
 		return nil, errcode.TODO.Wrap(err)
 	}
