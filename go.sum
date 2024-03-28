@@ -944,8 +944,8 @@ github.com/samber/lo v1.39.0 h1:4gTz1wUhNYLhFSKl6O+8peW0v2F4BCY034GRpU9WnuA=
 github.com/samber/lo v1.39.0/go.mod h1:+m/ZKRl6ClXCE2Lgf3MsQlWfh4bn1bz6CXEOxnEXnEA=
 =======
 github.com/ryanuber/columnize v0.0.0-20160712163229-9b3edd62028f/go.mod h1:sm1tb6uqfes/u+d4ooFouqFdy9/2g9QGwK3SQygK0Ts=
-github.com/sakul-budhathoki/go-multiaddr v0.0.0-20240328100058-7dc7b3f8a928 h1:Gu0wuQe7l+ZqXFhg+0fPjGK9kftoOMI2YSXZLEXZ0TU=
-github.com/sakul-budhathoki/go-multiaddr v0.0.0-20240328100058-7dc7b3f8a928/go.mod h1:sBXrNzucqkFJhvKOiwwLyqamGa/P5EIXNPLovyhQCII=
+github.com/sakul-budhathoki/go-multiaddr v0.0.0-20240328105404-f0007c9149fe h1:8VovAfmB7X9qfpJAMJd4nZjQbrDTT+jkC44QOPJd7h4=
+github.com/sakul-budhathoki/go-multiaddr v0.0.0-20240328105404-f0007c9149fe/go.mod h1:sBXrNzucqkFJhvKOiwwLyqamGa/P5EIXNPLovyhQCII=
 github.com/samber/lo v1.36.0 h1:4LaOxH1mHnbDGhTVE0i1z8v/lWaQW8AIfOD3HU4mSaw=
 github.com/samber/lo v1.36.0/go.mod h1:HLeWcJRRyLKp3+/XBJvOrerCQn9mhdKMHyd7IRlgeQ8=
 github.com/samuel/go-zookeeper v0.0.0-20190923202752-2cc03de413da/go.mod h1:gi+0XIa01GRL2eRQVjQkKGqKF3SF9vZR/HnPullcV2E=
