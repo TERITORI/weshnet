@@ -312,3 +312,5 @@ require (
 	moul.io/banner v1.0.1 // indirect
 	moul.io/motd v1.0.0 // indirect
 )
+
+replace github.com/multiformats/go-multiaddr => github.com/sakul-budhathoki/go-multiaddr v0.0.0-20240328080846-b00cfa57923d
