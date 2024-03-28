@@ -314,4 +314,4 @@ require (
 	nhooyr.io/websocket v1.8.7 // indirect
 )
 
-replace github.com/multiformats/go-multiaddr => github.com/sakul-budhathoki/go-multiaddr v0.0.0-20240328100058-7dc7b3f8a928
+replace github.com/multiformats/go-multiaddr => github.com/sakul-budhathoki/go-multiaddr v0.0.0-20240328105404-f0007c9149fe
