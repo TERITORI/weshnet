@@ -103,7 +103,7 @@ func CreateBaseConfig() (*ipfs_cfg.Config, error) {
 	}
 
 	// Discovery
-	c.Discovery.MDNS.Enabled = true
+	c.Discovery.MDNS.Enabled = false
 
 	// swarm listeners
 	c.Addresses.Swarm = DefaultSwarmListeners
