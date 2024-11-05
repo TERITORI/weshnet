@@ -1,5 +1,5 @@
-//go:build darwin
-// +build darwin
+//go:build darwin && !noNativeLogger
+// +build darwin,!noNativeLogger
 
 package logutil
 
